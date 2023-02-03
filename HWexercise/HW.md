@@ -463,7 +463,7 @@ considered to be “in equilibrium”. The distribution of the test results
 (chi-square statistics or p values) then becomes interesting to look at.
 One way to do this is to compare the sample percentiles of the
 chi-square statistics of all markers with the theoretical percentiles of
-a ­\(\chi_{1}^{2}\) distribution in a chi-square quantile-quantile plot
+a $\chi_{1}^{2}$ distribution in a chi-square quantile-quantile plot
 (Q-Q plot). For exact tests, Q-Q plots of the p values are used. Often
 the uniform distribution is chosen as the reference distribution.
 However, with discrete data the p value distribution under the null is
