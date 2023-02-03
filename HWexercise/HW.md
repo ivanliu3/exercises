@@ -318,7 +318,7 @@ HWTernaryPlot(SNP_sim_data, region = 1,
 The plots are explained in “Graphical test for
 multiple diallelic markers”; see below. In short, each dot indicates the
 genotypic proportion at a locus. The distance of a dot perpendicular to
-the *X*-axis indicates the frequency of hetero­zygotes at the locus.
+the *X*-axis indicates the frequency of heterozygotes at the locus.
 Similarly, the distances of the dot perpendicular to the other two sides
 of the triangle indicate the frequency of the two homozygotes. In the
 example to the right, the genotype frequencies are
@@ -463,7 +463,7 @@ considered to be “in equilibrium”. The distribution of the test results
 (chi-square statistics or p values) then becomes interesting to look at.
 One way to do this is to compare the sample percentiles of the
 chi-square statistics of all markers with the theoretical percentiles of
-a ­\(\chi_{1}^{2}\) distribution in a chi-square quantile-quantile plot
+a $\chi_{1}^{2}$ distribution in a chi-square quantile-quantile plot
 (Q-Q plot). For exact tests, Q-Q plots of the p values are used. Often
 the uniform distribution is chosen as the reference distribution.
 However, with discrete data the p value distribution under the null is
