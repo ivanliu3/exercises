@@ -115,13 +115,13 @@ In your ‘apeGenDiv’ directory, you will find 2 PLINK files, one with variabl
 | **Population**                                                                                    | **File name prefix** | **n** |
 |---------------------------------------------------------------------------------------------------|----------------------|-------|
 | Chimpanzee total (*Pan troglodytes)*                                                              | pan\_troglodytes     | 59    |
-| Central chimpanzee (*Pan troglodytes troglodytes*)                                                |            | 18    |
-| Eastern chimpanzee (*Pan troglodytes schweinfurtii*)                                              |            | 19    |
-| Western chimpanzee (*Pan troglodytes verus*)                                                      |             | 12    |
-| Nigerian-Cameroon chimpanzee (*Pan troglodytes ellioti*)                                          |           | 10    |
+| Central chimpanzee (*Pan troglodytes troglodytes*)                                                |                      | 18    |
+| Eastern chimpanzee (*Pan troglodytes schweinfurtii*)                                              |                      | 19    |
+| Western chimpanzee (*Pan troglodytes verus*)                                                      |                      | 12    |
+| Nigerian-Cameroon chimpanzee (*Pan troglodytes ellioti*)                                          |                      | 10    |
 | Human total (*Homo sapiens*)									    | homo_sapiens	   | 14    |
-| Utah residents with ancestry in Europe (CEU)                                                      |                   | 7     |
-| Yoruba ethnic group in North and Central Nigeria (YRI)                                            |                   | 7     |
+| Utah residents with ancestry in Europe (CEU)                                                      |                      | 7     |
+| Yoruba ethnic group in North and Central Nigeria (YRI)                                            |                      | 7     |
 
 **For each of the two species there is a .bed, .bim and .fam file in the ‘apeGenDiv’ directory**
 
