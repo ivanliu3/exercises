@@ -605,7 +605,7 @@ Now take a look at the total sample of the combined set of chimpanzees and human
 </p>
 </details>
 
-**Q22:** This effect is more pronounced in some populaitons (CEU in humans, verus, ellioti and scweinfurhii in chimpanzees), can you guess why is that?
+**Q22:** This effect is more pronounced in some populaitons (CEU in humans, verus, ellioti and schweinfurthi in chimpanzees), can you guess why is that?
 
 <details><summary>click to see answer</summary>
 <p>
