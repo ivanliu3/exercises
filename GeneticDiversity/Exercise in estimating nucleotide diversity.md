@@ -269,7 +269,7 @@ done
 </p>
 </details>
 
-Now we are finally ready to start estiamting genetic diversity as expected heterozygosity. We will do it for each of the populations we have just split in separate files. We start by estimating allele frequencies for each variant with plink:
+Now we are finally ready to start estimating genetic diversity as expected heterozygosity. We will do it for each of the populations we have just split in separate files. We start by estimating allele frequencies for each variant with plink:
 
 ```bash
 for f in YRI CEU ellioti schweinfurthii troglodytes verus
@@ -290,7 +290,7 @@ done
 </details>
 
 
-Now we will use **R** to estiamte expected heterozygosity from the allele frequencies we have just estimated. Open **R** and paste in the following commands to read in the frequency output from PLINK (try to understand the code, do not hesitate to ask an instructor, or Google, if in doubt):
+Now we will use **R** to estimate expected heterozygosity from the allele frequencies we have just estimated. Open **R** and paste in the following commands to read in the frequency output from PLINK (try to understand the code, do not hesitate to ask an instructor, or Google, if in doubt):
 
 
 ```R
@@ -325,7 +325,7 @@ barplot(mean_hets, names.arg=c("Nigerian_Cameroon\nellioti", "Eastern\nschweinfu
 <details><summary>click to see answer</summary>
 <p>
 
-	Calculates expected heterozygosity based population on allele frequencies.
+	Calculates expected heterozygosity based on population allele frequencies.
 	
 </p>
 </details>
@@ -353,7 +353,7 @@ barplot(mean_hets, names.arg=c("Nigerian_Cameroon\nellioti", "Eastern\nschweinfu
 
 **Figure 2** Estimates of genome-wide heterozygosity for great apes and humans (from Prado-Martinez *et al.* 2013. [https://www.nature.com/articles/nature12228]).
 
-We can get a better estiamte of the nucleotide diverstiy that takes into account also fixed postions, by looking at the range of positions we have data for and assuming all positions we do not observe in our plink file are homozygous. Continue copying the following code in **R** (again, try to understand the code and ask your classmates or an instructor if necessary):
+We can get a better estimate of the nucleotide diverstiy that takes into account also fixed postions, by looking at the range of positions we have data for and assuming all positions we do not observe in our plink file are homozygous. Continue copying the following code in **R** (again, try to understand the code and ask your classmates or an instructor if necessary):
 
 ```R
 # start by reading in the bim files, to get position in bp for each variant
