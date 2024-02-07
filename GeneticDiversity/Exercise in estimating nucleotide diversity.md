@@ -116,13 +116,13 @@ In your ‘apeGenDiv’ directory, you will find 2 PLINK files, one with variabl
 | **Population**                                                                                    | **File name prefix** | **n** |
 |---------------------------------------------------------------------------------------------------|----------------------|-------|
 | Chimpanzee total (*Pan troglodytes)*                                                              | pan\_troglodytes     | 59    |
-| Central chimpanzee (*Pan troglodytes troglodytes*)                                                |            | 18    |
-| Eastern chimpanzee (*Pan troglodytes schweinfurtii*)                                              |            | 19    |
-| Western chimpanzee (*Pan troglodytes verus*)                                                      |             | 12    |
-| Nigerian-Cameroon chimpanzee (*Pan troglodytes ellioti*)                                          |           | 10    |
+| Central chimpanzee (*Pan troglodytes troglodytes*)                                                |                      | 18    |
+| Eastern chimpanzee (*Pan troglodytes schweinfurtii*)                                              |                      | 19    |
+| Western chimpanzee (*Pan troglodytes verus*)                                                      |                      | 12    |
+| Nigerian-Cameroon chimpanzee (*Pan troglodytes ellioti*)                                          |                      | 10    |
 | Human total (*Homo sapiens*)									    | homo_sapiens	   | 14    |
-| Utah residents with ancestry in Europe (CEU)                                                      |                   | 7     |
-| Yoruba ethnic group in North and Central Nigeria (YRI)                                            |                   | 7     |
+| Utah residents with ancestry in Europe (CEU)                                                      |                      | 7     |
+| Yoruba ethnic group in North and Central Nigeria (YRI)                                            |                      | 7     |
 
 **For each of the two species there is a .bed, .bim and .fam file in the ‘apeGenDiv’ directory**
 
@@ -519,7 +519,7 @@ slidingwindowPiplot(mainv=mainvv, xlab="Position", ylab=expression(paste("pi")),
 </details>
 
 
-### Estimating inbreeding coefficient pr. individual
+### Estimating inbreeding coefficient per individual
 
 Now, instead of comparing diversity measures in different population, we will now look at the diversity within each individual in term of inbreeding. Given the large number of SNPs for each individual, we will estimate the individual inbreeding coefficient for all individuals in the different populations.
 
@@ -567,7 +567,7 @@ Start by looking at the four different chimpanzee subspecies and the two human p
 <details><summary>click to see answer</summary>
 <p>
 
-	Verus: two inds with F of 0.11 and 0.062.
+	Verus: two individuals with F of 0.11 and 0.062.
 	
 	Ellioti: Five with an F of 0.062 or more.
 	
