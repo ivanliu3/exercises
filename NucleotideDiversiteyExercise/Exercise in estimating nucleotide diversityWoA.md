@@ -1,6 +1,6 @@
 # Exercise in estimating nucleotide diversity
 
-Genís Garcia-Erill, Patrícia Chrzanová Pečnerová, Casper-Emil Pedersen, Peter Frandsen and Hans R. Siegismund
+Xiaodong Liu, Genís Garcia-Erill, Patrícia Chrzanová Pečnerová, Casper-Emil Pedersen, Peter Frandsen and Hans R. Siegismund
 
 ## Program
 
